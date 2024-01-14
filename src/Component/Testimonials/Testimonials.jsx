@@ -12,7 +12,7 @@ const Testimonials = () => {
      <div className='testimonial-heading-container' >
        <h3 className="testimonial-heading page-title">Testimonials</h3>
         <p className="testimonial-subheading">
-            People I've worked with have said some nice things...
+            {"People I've worked with have said some nice things..."}
         </p>
      </div>
       <ReactSimplyCarousel
