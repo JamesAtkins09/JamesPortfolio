@@ -1,0 +1,99 @@
+.testimonial-container {
+    background: #12121275;
+    backdrop-filter: blur(5px);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* I want to ask this line to naman, Why the margin was applied to parent. */
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-testimonial-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 5rem 0;
+    width: 100%;
+}
+
+.testimonial-heading {
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 5.85rem;
+    /* 150% */
+    letter-spacing: 0.1875rem;
+    text-transform: uppercase;
+}
+
+.testimonial-subheading {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.testimonial-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 5rem 0;
+    /* width: min(70%, 70rem); */
+}
+
+.testimonial-card {
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    max-height: 500px;
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-card img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.testimonial-card h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2.85rem;
+    /* 150% */
+    letter-spacing: 0.1875rem;
+    text-transform: uppercase;
+}
+
+.testimonial-card p {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.28813rem;
+    max-width: 350px;
+}
+
+.testimonial-card .user-quote {
+    margin-top: 20px;
+}
+
+.testimonial-card span {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.28813rem;
+}
